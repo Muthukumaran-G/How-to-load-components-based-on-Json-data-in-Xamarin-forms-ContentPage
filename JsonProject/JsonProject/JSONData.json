@@ -1,0 +1,63 @@
+{
+  "Pages": [
+    {
+      "PageTitle": "Home Content",
+      "Controls": [
+        {
+          "Name": "ID",
+          "DisplayOrder": 1,
+          "DisplayName": "ID",
+          "IsHidden": true,
+          "UIType": "TEXT",
+          "Value": "",
+          "ValueList": []
+        },
+        {
+          "Name": "Address",
+          "DisplayName": "Address",
+          "DisplayOrder": 3,
+          "IsHidden": false,
+          "UIType": "TEXTAREA",
+          "Value": "",
+          "ValueList": []
+        },
+        {
+          "Name": "DatePlaced",
+          "DisplayName": "Date Placed",
+          "DisplayOrder": 2,
+          "IsHidden": false,
+          "UIType": "DATE",
+          "Value": "",
+          "ValueList": []
+        },
+        {
+          "Name": "GoodsType",
+          "DisplayName": "Goods  Type",
+          "DisplayOrder": 4,
+          "IsHidden": false,
+          "UIType": "SELECTION",
+          "Value": "Electrical",
+          "ValueList": [ "Electronics", "Metal/Steel", "Wood", "Glass", "Electrical" ]
+        },
+        {
+          "Name": "GoodsTag",
+          "DisplayName": "Goods Tag",
+          "DisplayOrder": 5,
+          "IsHidden": true,
+          "UIType": "TEXT",
+          "Value": "",
+          "ValueList": []
+        },
+        {
+          "Name": "OrderNo",
+          "DisplayName": "Order No",
+          "DisplayOrder": 6,
+          "IsHidden": false,
+          "UIType": "TEXT",
+          "Value": "",
+          "ValueList": []
+        }
+      ]
+    }
+  ]
+}
